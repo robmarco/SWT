@@ -1,0 +1,74 @@
+\documentclass[a4paper,oneside,11pt]{book}
+	
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+
+% -------------------------------------------------------------------------
+
+% Para incluir gráficos en JPG => compilar con pdflatex.
+%\usepackage[pdftex]{graphicx}
+% Para incluir gráficos EPS => compilar con latex.
+\usepackage[dvips]{graphicx}
+% Para escribir en color cuando compilamos con pdflatex
+\usepackage[pdftex,usenames,dvipsnames]{color}
+
+% -------------------------------------------------------------------------
+
+% Paquete fancyhdr -> Para modificar la cabecera y pie de páginas.
+% http://tug.ctan.org/tex-archive/macros/latex/contrib/fancyhdr/
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhf[HR]{\thepage}
+\fancyhf[HL]{\nouppercase\rightmark}
+\headwidth=16cm
+
+% Ajuste de márgenes
+\usepackage{anysize}
+\marginsize{3cm}{2cm}{2cm}{2cm}	% izquierda, derecha, arriba, abajo
+\parskip=6pt	% Personalizamos la separación entre párrafos.
+\parindent=10pt	% Personalizamos el identado en la primera línea del nuevo párrafo.
+\setcounter{secnumdepth}{3}	% Número máximo de niveles de profundidad en las secciones.
+
+% -------------------------------------------------------------------------
+
+% Package booktabs -> Para mejorar el aspecto de las tablas o cuadros.
+% http://www.ctan.org/tex-archive/macros/latex/contrib/booktabs/
+\usepackage{booktabs}
+
+% Package rotating -> Para poder girar las tablas y dibujarlas a lo largo
+% del folio en vez de a lo ancho.
+\usepackage{rotating}
+
+% Packages multicol y multirow, para manejar tablas de filas y columnas múltiples.
+\usepackage{multicol}
+\usepackage{multirow}
+
+\usepackage{tabulary}
+% -------------------------------------------------------------------------
+
+\title{Libro de ejemplo en \LaTeX}
+\author{Roberto Marco Sánchez}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	% FRONTMATTER: TOC, LOF, LOT y descripción/organización de la memoria.
+	\frontmatter
+
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	\include{frontmatter_intro}
+	
+	% MAINMATTER: El contenido, capítulo a capítulo, de la memoria.
+	\mainmatter
+
+	\include{main_010}
+	
+	% Referencias bibliográficas
+	\nocite{*}	% Se usa para indicar en la bibliografía las referencias no citadas.
+	\bibliography{bibliografia}
+	\bibliographystyle{plain}
+
+\end{document}
