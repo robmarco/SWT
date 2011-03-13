@@ -1,6 +1,0 @@
-Documentación en Latex
-------------------------------------
-- book.tex. Interfaz (fichero a compilar)
-- frontmatter_intro.tex. Introducción
-- main_0x0.tex. Capítulos de la documentación
-- bibliografia.bib. Bibliografía en formato Bibtex

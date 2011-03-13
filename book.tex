@@ -1,20 +1,20 @@
 \documentclass[a4paper,oneside,11pt]{book}
 	
 \usepackage[spanish]{babel}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 
 % -------------------------------------------------------------------------
 
-% Para incluir gráficos en JPG => compilar con pdflatex.
+% Para incluir graficos en JPG => compilar con pdflatex.
 %\usepackage[pdftex]{graphicx}
-% Para incluir gráficos EPS => compilar con latex.
+% Para incluir graficos EPS => compilar con latex.
 \usepackage[dvips]{graphicx}
 % Para escribir en color cuando compilamos con pdflatex
 \usepackage[pdftex,usenames,dvipsnames]{color}
 
 % -------------------------------------------------------------------------
 
-% Paquete fancyhdr -> Para modificar la cabecera y pie de páginas.
+% Paquete fancyhdr -> Para modificar la cabecera y pie de paginas.
 % http://tug.ctan.org/tex-archive/macros/latex/contrib/fancyhdr/
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -23,12 +23,12 @@
 \fancyhf[HL]{\nouppercase\rightmark}
 \headwidth=16cm
 
-% Ajuste de márgenes
+% Ajuste de margenes
 \usepackage{anysize}
 \marginsize{3cm}{2cm}{2cm}{2cm}	% izquierda, derecha, arriba, abajo
-\parskip=6pt	% Personalizamos la separación entre párrafos.
-\parindent=10pt	% Personalizamos el identado en la primera línea del nuevo párrafo.
-\setcounter{secnumdepth}{3}	% Número máximo de niveles de profundidad en las secciones.
+\parskip=6pt	% Personalizamos la separacion entre parrafos.
+\parindent=10pt	% Personalizamos el identado en la primera linea del nuevo parrafo.
+\setcounter{secnumdepth}{3}	% Numero maximo de niveles de profundidad en las secciones.
 
 % -------------------------------------------------------------------------
 
@@ -40,20 +40,20 @@
 % del folio en vez de a lo ancho.
 \usepackage{rotating}
 
-% Packages multicol y multirow, para manejar tablas de filas y columnas múltiples.
+% Packages multicol y multirow, para manejar tablas de filas y columnas multiples.
 \usepackage{multicol}
 \usepackage{multirow}
 
-\usepackage{tabulary}
+\usepackage{tabularx}
 % -------------------------------------------------------------------------
 
-\title{Libro de ejemplo en \LaTeX}
-\author{Roberto Marco Sánchez}
+\title{Desarrollo AplicaciÃ³n Web de GestiÃ³n Deportiva para Entrenadores de NataciÃ³n}
+\author{Roberto Marco SÃ¡nchez}
 \date{\today}
 
 \begin{document}
 	\maketitle
-	% FRONTMATTER: TOC, LOF, LOT y descripción/organización de la memoria.
+	% FRONTMATTER: TOC, LOF, LOT y descripcion/organizacion de la memoria.
 	\frontmatter
 
 	\tableofcontents
@@ -61,13 +61,14 @@
 	\listoftables
 	\include{frontmatter_intro}
 	
-	% MAINMATTER: El contenido, capítulo a capítulo, de la memoria.
+	% MAINMATTER: El contenido, capitulo a capitulo, de la memoria.
 	\mainmatter
 
-	\include{main_010}
+	%\include{main_010}
+	\include{main_01}
 	
-	% Referencias bibliográficas
-	\nocite{*}	% Se usa para indicar en la bibliografía las referencias no citadas.
+	% Referencias bibliograficas
+	\nocite{*}	% Se usa para indicar en la bibliografia las referencias no citadas.
 	\bibliography{bibliografia}
 	\bibliographystyle{plain}
 
