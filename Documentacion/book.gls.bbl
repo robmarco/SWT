@@ -1,0 +1,17 @@
+\begin{thegloss}
+
+\glossheading{H}
+
+\begin{glossitem*}{hola2}{hola2}{Hola2}{}
+Red de dispositivos que se conectan utilizando Bluetooth. Puede constar de dos
+  a ocho dispositivos. En una piconet habr\'a siempre un ''maestro'' y los
+  dem\'as ser\'an ''esclavos''.\end{glossitem*}
+
+\glossheading{P}
+
+\begin{glossitem*}{piconet}{piconet}{Piconet}{}
+Red de dispositivos que se conectan utilizando Bluetooth. Puede constar de dos
+  a ocho dispositivos. En una piconet habr\'a siempre un ''maestro'' y los
+  dem\'as ser\'an ''esclavos''.\end{glossitem*}
+
+\end{thegloss}

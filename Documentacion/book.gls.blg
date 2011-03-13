@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: book.gls.aux
+The style file: glsplain.bst
+Database file #1: glsbase.bib
+Database file #2: glosario.bib
+You've used 2 entries,
+            326 wiz_defined-function locations,
+            207 strings with 1467 characters,
+and the built_in function-call counts, 223 in all, are:
+= -- 4
+> -- 0
+< -- 0
++ -- 4
+- -- 0
+* -- 14
+:= -- 18
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 26
+empty$ -- 31
+format.name$ -- 0
+if$ -- 35
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 13
+num.names$ -- 0
+pop$ -- 2
+preamble$ -- 1
+purify$ -- 4
+quote$ -- 0
+skip$ -- 15
+stack$ -- 0
+substring$ -- 4
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 4
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 2
+width$ -- 0
+write$ -- 28

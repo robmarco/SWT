@@ -45,6 +45,10 @@
 \usepackage{multirow}
 
 \usepackage{tabularx}
+
+% -------------------------------------------------------------------------
+% Compilar con bibtex book.gls.aux
+\usepackage[refpages]{gloss}
 % -------------------------------------------------------------------------
 
 \title{Desarrollo Aplicación Web de Gestión Deportiva para Entrenadores de Natación}
@@ -53,6 +57,8 @@
 
 \begin{document}
 	\maketitle
+	\makegloss
+	
 	% FRONTMATTER: TOC, LOF, LOT y descripcion/organizacion de la memoria.
 	\frontmatter
 
@@ -66,9 +72,15 @@
 
 	\include{main_010} % Captura de requisitos
 	
-	% Referencias bibliograficas
+	% ----------------- Glosario --------------------------- 
+	% Para mostrar todas las entradas aunque no estén referenciadas en el documento
+	\newgloss{default}{.gls}{Glosario}{glsplain}
+	\gloss[nocite]{*} 		
+	\printgloss{glsbase,glosario}
+
+	% ----------- Referencias bibliograficas ------------------ 
 	\nocite{*}	% Se usa para indicar en la bibliografia las referencias no citadas.
 	\bibliography{bibliografia}
 	\bibliographystyle{plain}
-
+	
 \end{document}
