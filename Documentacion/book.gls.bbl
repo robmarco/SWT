@@ -1,17 +1,106 @@
 \begin{thegloss}
 
-\glossheading{H}
+\glossheading{A}
 
-\begin{glossitem*}{hola2}{hola2}{Hola2}{}
-Red de dispositivos que se conectan utilizando Bluetooth. Puede constar de dos
-  a ocho dispositivos. En una piconet habr\'a siempre un ''maestro'' y los
-  dem\'as ser\'an ''esclavos''.\end{glossitem*}
+\begin{glossitem*}{aerobico}{aeróbico}{Aeróbico}{}
+Referentes a los tipos de ejercicios. Incluyen cualquier tipo de ejercicio que
+  se practique a niveles moderados de intensidad durante periodos de tiempo
+  largos.\end{glossitem*}
+
+\begin{glossitem*}{anaerobico}{anaeróbico}{Anaeróbico}{}
+Referentes a los tipos de ejercicios. Comprenden actividades breves basadas en
+  la fuerza.\end{glossitem*}
+
+\glossheading{C}
+
+\begin{glossitem*}{calendario}{calendario}{Calendario}{}
+Sistema de división del tiempo. Entiéndase como calendario deportivo, donde
+  se establecen cada una de las competiciones que se realizan a lo largo de una
+  temporada de natación.\end{glossitem*}
+
+\begin{glossitem*}{carga}{carga}{Carga}{}
+Factor de acumulación en un deportista. Queda definido por el volumen y la
+  intensidad, o también por el volumen multiplicado por el índice de
+  Mujika.\end{glossitem*}
+
+\begin{glossitem*}{competicion}{competición}{Competición}{}
+Prueba en la que se lucha por conseguir un triunfo deportivo. Específicamente,
+  competición de natación.\end{glossitem*}
+
+\glossheading{D}
+
+\begin{glossitem*}{diario}{diario}{Diario}{}
+Cuaderno o libro en que se recogen acontecimientos y pensamientos día a
+  día.\end{glossitem*}
+
+\glossheading{E}
+
+\begin{glossitem*}{entrenador}{entrenador}{Entrenador}{}
+Persona cuyo oficio o afición consiste en preparar y adiestrar a personas o
+  animales, generalmente para la práctica de un deporte.\end{glossitem*}
+
+\begin{glossitem*}{entrenamiento}{entrenamiento}{Entrenamiento}{}
+Preparación física y técnica que se realiza para perfeccionar el ejercicio
+  de una actividad deportiva o lúdica.\end{glossitem*}
+
+\glossheading{F}
+
+\begin{glossitem*}{ficha_nadador}{ficha nadador}{Ficha nadador}{}
+Disposición de datos pertenecientes a un nadador, tanto de carácter personal
+  como obtenidos en la realización de test o competiciones.\end{glossitem*}
+
+\glossheading{I}
+
+\begin{glossitem*}{p}{intensidad}{Intensidad}{}
+Referente a los ejercicios. Grado en el que se realizan los ejercicios de
+  natación.\end{glossitem*}
+
+\glossheading{M}
+
+\begin{glossitem*}{macrociclo}{macrociclo}{Macrociclo}{}
+Bloque de mesociclos. La idea equivale al concepto de periodo de entrenamiento,
+  los que normalmente suelen ir separados por reposos.\end{glossitem*}
+
+\begin{glossitem*}{mesociclo}{mesociclo}{Mesociclo}{}
+Bloques de microciclos ordenados para conseguir un objetivo determinado:
+  representan etapas relativamente acabas del proceso de entrenamiento que
+  permiten asegurar el desarrollo de una capacidad.\end{glossitem*}
+
+\begin{glossitem*}{microciclo}{microciclo}{Microciclo}{}
+Conjunto de sesiones que tienen un objetivo concreto. Como su nombre indica,
+  son ciclos breves de entrenamiento. Comúnmente, los microciclos hacen
+  referencia a cada sesión de entrenamiento que realice un
+  entrenador.\end{glossitem*}
+
+\glossheading{N}
+
+\begin{glossitem*}{nadador}{nadador}{Nadador}{}
+Persona que practica la natación..\end{glossitem*}
 
 \glossheading{P}
 
-\begin{glossitem*}{piconet}{piconet}{Piconet}{}
-Red de dispositivos que se conectan utilizando Bluetooth. Puede constar de dos
-  a ocho dispositivos. En una piconet habr\'a siempre un ''maestro'' y los
-  dem\'as ser\'an ''esclavos''.\end{glossitem*}
+\begin{glossitem*}{planificacion}{planificación}{Planificación}{}
+Plan general, metódicamente organizado y frecuentemente de gran amplitud, para
+  obtener un objetivo determinado.\end{glossitem*}
+
+\glossheading{T}
+
+\begin{glossitem*}{test}{test}{Test}{}
+Prueba destinada a evaluar aptitudes.\end{glossitem*}
+
+\begin{glossitem*}{ejtecnicos}{técnicos}{Técnicos}{}
+Referentes a los tipos de ejercicios. Aplicación de métodos para mejora de
+  cada uno de los estilos de natación.\end{glossitem*}
+
+\glossheading{V}
+
+\begin{glossitem*}{volumen}{volumen}{Volumen}{}
+Referente a los ejercicios. Mide la cantidad total de metros realizados en una
+  sesión de entrenamiento.\end{glossitem*}
+
+\glossheading{�}
+
+\begin{glossitem*}{mujika}{índice de Mujika}{índice de Mujika}{}
+Parámetro.\end{glossitem*}
 
 \end{thegloss}

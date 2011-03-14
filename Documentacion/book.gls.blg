@@ -4,44 +4,44 @@ The top-level auxiliary file: book.gls.aux
 The style file: glsplain.bst
 Database file #1: glsbase.bib
 Database file #2: glosario.bib
-You've used 2 entries,
+You've used 19 entries,
             326 wiz_defined-function locations,
-            207 strings with 1467 characters,
-and the built_in function-call counts, 223 in all, are:
-= -- 4
+            250 strings with 3721 characters,
+and the built_in function-call counts, 1993 in all, are:
+= -- 38
 > -- 0
 < -- 0
-+ -- 4
++ -- 38
 - -- 0
-* -- 14
-:= -- 18
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 6
+* -- 119
+:= -- 164
+add.period$ -- 19
+call.type$ -- 19
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 26
-empty$ -- 31
+cite$ -- 19
+duplicate$ -- 247
+empty$ -- 279
 format.name$ -- 0
-if$ -- 35
+if$ -- 317
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 13
+newline$ -- 84
 num.names$ -- 0
-pop$ -- 2
+pop$ -- 33
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 38
 quote$ -- 0
-skip$ -- 15
+skip$ -- 134
 stack$ -- 0
-substring$ -- 4
-swap$ -- 6
+substring$ -- 38
+swap$ -- 50
 text.length$ -- 0
-text.prefix$ -- 4
+text.prefix$ -- 38
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 2
+while$ -- 19
 width$ -- 0
-write$ -- 28
+write$ -- 242
