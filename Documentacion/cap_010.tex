@@ -1,6 +1,13 @@
 % ----------------------------------
 % Cap Captura de Requisitos
 % ----------------------------------
+%
+%	Comenzar el capítulo hablando sobre el desarrollo de aplicaciones por un ingeniero. Es un proceso complicado en el que se 
+%	localiza primero las necesidades del cliente, usando una lista de características. Esta lista de características va a servir
+%	al jefe de proyecto en la guía a la construcción del sistema final. 
+%	Al finalizar el proyecto, todas las características que están con Estado = Aceptado, tienen que estar en Estado = Finalizado.
+%	Las características se dividirán en iteraciones e incrementos.
+%
 
 \chapter{Captura de requisitos} % (fold)
 \label{cha:captura_de_requisitos}
@@ -36,7 +43,7 @@
 	
 	\begin{itemize}
 		\item{{\bf Prioridad}. Se asigna una prioridad a cada característica con el fin de determinar el orden en que se van a ir desarrollando. La prioridad se establece desde muy alta a muy baja.}
-		\item{{\bf Estado}. Establece el punto en que se encuentra el sistema a medida que avanza su desarrollo. Los posibles estados son: {\it aceptado, planificado, en desarrollo, finalizado, postergado, rechazado}.}
+		\item{{\bf Estado}. Establece el punto en que se encuentra el sistema a medida que avanza su desarrollo. Los posibles estados son: {\it aceptado}, que indica que la característica se desarrollará en esta versión del producto; {\it planificado}, donde se indica que una característica ha sido planificada y se empezará a desarrollar en un plazo de tiempo corto; {\it en desarrollo}; {\it finalizado}; {\it postergado}, que refleja que no se desarrollará hasta una versión futura; y {\it rechazado}, lo que hará que posiblemente no se desarrolle en ninguna versión.}
 		\item{{\bf Coste}. Recursos estimados para la implementación de la característica.}
 		\item{{\bf Nivel de riesgo asociado}. Cada característica puede tener asociado un riesgo que representa la dificultad para conseguir implementarla correctamente. Los tres niveles de riesgo son: {\it crítico, significativo o rutinario}.}
 	\end{itemize}
@@ -55,13 +62,13 @@
 			\hline
 				Se debe mostrar una página estática como interfaz de entrada con un tour de las características de la aplicación, mostrando la potencia de la misma. Se incluyen páginas acerca de cada uno de los módulos que se gestionan y capturas de pantalla de las mismas.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -73,13 +80,13 @@
 			\hline
 				El sistema debe mostrar una página estática con los términos.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -91,13 +98,13 @@
 			\hline
 				El sistema debe mostrar una página estática con las condiciones de uso y privacidad de información.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -109,13 +116,13 @@
 			\hline
 				Se muestra una página estática con las referencias al producto realizadas por los entrenadores expertos que han participado en la elaboración de la aplicación.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -127,13 +134,13 @@
 			\hline
 				Se muestra una página estática haciendo referencia a los diferentes planes de contratación del producto, especificando las características de las versiones gratuitas y de pago.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}		
@@ -145,13 +152,13 @@
 			\hline
 				Se debe incluir un formulario de contacto para que los usuarios puedan ponerse en contacto con los administradores del sitio.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -163,13 +170,13 @@
 			\hline
 				La aplicación se adaptará a distintos idiomas (español e inglés). Se adaptan los elementos de interfaz, siendo el idioma por defecto el español.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -181,13 +188,13 @@
 			\hline
 				Los usuarios deben poder compartir la aplicación a través de enlaces facebook/twitter o enviando notificaciones por correo a contactos.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -207,13 +214,13 @@
 			\hline
 				La aplicación debe permitir registrarse a los entrenadores en el sistema.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado \\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -225,13 +232,13 @@
 			\hline
 				Los entrenadores deben poder acceder al sistema, autenticándose con un nombre de usuario y contraseña. El sistema debe permitir recordar contraseña en caso de haberla olvidado.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -243,13 +250,13 @@
 			\hline
 				El sistema puede permitir el acceso al sistema usando cuenta de facebook o twitter, integrando así la información proporcionada en las redes sociales.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -261,13 +268,13 @@
 			\hline
 				Los entrenadores podrán cerrar la sesión iniciada cuando se finalicen las tareas de gestión deportiva de su equipo.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -279,13 +286,13 @@
 			\hline
 				El sistema debe mostrar ayuda referente al proceso de registro y autenticación de los entrenadores en el sistema.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -297,13 +304,13 @@
 			\hline
 				El sistema debe permitir a los entrenadores ir a la página \it{dashboard} (resumen). En ella se muestran las opciones más usadas en el proceso, así como una pantalla resumen para comenzar a usar la aplicación: terminar de configurar los datos, añadir los primeros nadadores, crear entrenamientos/test/competiciones e invitar contactos a la aplicación.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -315,13 +322,13 @@
 			\hline
 				Los entrenadores que accedan al sistema pueden modificar su perfil. Se trata de modificar datos insertados en el registro, tanto de información personal como datos de contacto.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -333,13 +340,13 @@
 			\hline
 				Los entrenadores pueden comunicar en su perfil que desean recibir notificaciones de actualizaciones a través del email.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -351,13 +358,13 @@
 			\hline
 				Los entrenadores pueden modificar la apariencia de los informes que se generen. Lo principal es añadir un logo del equipo en el que trabaja, para posteriormente mostrarlo en la cabecera del informe.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Medio\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -369,13 +376,13 @@
 			\hline
 				Los entrenadores deben poder contratar los planes premium que se definan para la aplicación. Contienen funcionalidades extras definidas. El pago del plan tiene que ser a través de plataforma \it{paypal}\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -387,13 +394,13 @@
 			\hline
 				Los entrenadores deben poder modificar el índice de Mujika, el cuál es un parámetro que define el factor de multiplicación del volumen para obtener la carga de un entrenamiento. Será usado para calcular los datos estadísticos de los entrenamientos.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Alto\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -405,13 +412,13 @@
 			\hline
 				Los entrenadores puede añadir/eliminar listas de contactos, donde aparecen otros entrenadores que están registrados en la aplicación. Cada lista es personal, pudiendo exportar los contactos a Excel o CSV.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -423,13 +430,13 @@
 			\hline
 				El sistema debe permitir el envío de mensajes privados entre entrenadores que están registrados en la aplicación. La lista de contactos es la base para poder realizar el contacto con otros entrenadores.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Bajo\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -448,13 +455,13 @@
 			\hline
 				El sistema debe permitir a los entrenadores ver el contenido del diario. En él se muestran todos los registros insertados por el entrenador, mostrando título y fecha de creación. Desde ahí se puede acceder a cada uno de los registros para ver el contenido de los mismos.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -466,13 +473,13 @@
 			\hline
 				El entrenador puede añadir, eliminar o modificar registros en su diario. Cada registro muestra una incidencia u observación que quiere reflejar el entrenador.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -484,13 +491,13 @@
 			\hline
 				El sistema debe permitir que un entrenador añada etiquetas a cada uno de los registros del diario. Esto permite agrupar incidencias u observaciones por temática, con lo que ayudaría al entrenador a localizarlas más fácilmente.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -502,13 +509,13 @@
 			\hline
 				El sistema debe permitir que los entrenadores busquen registros en sus diarios. Las búsquedas pueden ser por fechas, títulos o etiquetas asociadas.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Signitificativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -520,13 +527,13 @@
 			\hline
 				La aplicación debe mostrar en la página ``Ver diario'' un resumen con la cantidad de registros insertados en el diario y las etiquetas más usadas.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -538,13 +545,13 @@
 			\hline
 				Los entrenadores deben poder adjuntar ficheros en un registro del diario. Estos ficheros podrán ser descargados y abiertos por los entrenadores posteriormente.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -556,13 +563,13 @@
 			\hline
 				El sistema debe permitir que el entrenador imprima todo el diario completo. Se muestra la fecha de creación, título y contenido de cada registro insertado en el diario. Así mismo, también debe permitir el imprimir únicamente un registro determinado.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -582,13 +589,13 @@
 			\hline
 				El sistema debe permitir al entrenador ver el listado de nadadores insertados. Listado con los datos más usados para localizar lo más rápido posible a los nadadores. Sirve de interfaz para ver las fichas individuales de los nadadores.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -600,13 +607,13 @@
 			\hline
 				El entrenador debe poder añadir, eliminar o modificar un nadador. Cada ficha del nadador tendrá asociado unos datos personales e información generada al introducir datos en las competiciones y test.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -616,15 +623,15 @@
 			\hline 
 				\bf{LC-D3. Añadir fotografía}\\
 			\hline
-				El entrenador debe poder insertar una fotografía del nadador, la cuál se almacenará en el sistema y se mostrará en el perfil.\\
+				El entrenador debe poder insertar una fotografía del nadador, la cuál se almacenará en el sistema y se mostrará en el perfil. El sistema debe almacenar la imagen en el sistema de ficheros, comprobando las cuestiones de seguridad pertinentes.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Medio\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -636,13 +643,13 @@
 			\hline
 				Los entrenadores pueden enviar a una hoja Excel el listado de nadadores que contiene. Sólo se exportan los datos personales.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -654,13 +661,13 @@
 			\hline
 				El sistema debe permitir al entrenador imprimir el listado de todos los nadadores pertenecientes al entrenador, así como las fichas individuales de cada nadador. En el caso de imprimir fichas individuales, se debe imprimir la información referente a cada prueba de las competiciones y a los test.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -672,13 +679,13 @@
 			\hline
 				El sistema debe permitir al entrenador enviar por email el listado de todos los nadadores pertenecientes al entrenador, así como las fichas individuales de cada nadador.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -690,13 +697,13 @@
 			\hline
 				El entrenador debe poder enviar email a los nadadores. En caso de ser menores de edad, la dirección de contacto debe ser la de los padres. Puede ser un contacto individual o colectivo.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -708,13 +715,13 @@
 			\hline
 				El sistema debe generar estadísticas acerca de los nadadores. Están relacionadas con el número de nadadores dados de alta en un mismo mes; gráfico para ver la mejora de las marcas individuales de cada nadador; gráfico para ver la mejora en los test realizados.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -726,13 +733,13 @@
 			\hline
 				El sistema debe calcular los valores de porcentaje respecto a la mejor marca de un nadador. Por ejemplo: 80\% respecto a la mejor marca.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Rechazado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -744,13 +751,13 @@
 			\hline
 				El entrenador debe poder hacer búsquedas sobre los nadadores. Los principales filtros son los nombres y las categorías del nadador.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -770,13 +777,13 @@
 			\hline
 				El entrenador debe poder crear una hoja de cálculo con la planificación de la temporada. Se tienen en cuenta los volúmenes y cargas de los entrenamientos.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -788,13 +795,13 @@
 			\hline
 				El entrenador debe poder subir al sistema un fichero Excel o pdf con la planificación de la temporada. Este fichero servirá para comparar el volumen y carga de los microciclos \footnote{Estructura de organización del entrenamiento que están constituidos por las sesiones de entrenamientos.} y macrociclos \footnote{Estructura de organización del entrenamiento que están constituidos por un conjunto de microciclos.}\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -806,13 +813,13 @@
 			\hline
 				El sistema debe permitir al entrenador imprimir la planificación de la temporada, tanto en caso de que se haya creado en el sistema como si se ha subido a la aplicación.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -824,13 +831,13 @@
 			\hline
 				El sistema debe permitir al entrenador ver el listado de entrenamientos insertados. Cada sesión incluye los ejercicios que se realizan en un entrenamiento diario. Puede usarse un calendario para verlo más fácilmente.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -842,13 +849,13 @@
 			\hline
 				El sistema debe permitir al entrenador añadir, modificar o eliminar entrenamientos. Cada entrenamiento consta de una serie de ejercicios que lo forman y representa una sesión de entrenamiento.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -860,13 +867,13 @@
 			\hline
 				El entrenador debe poder introducir ejercicios en cada uno de los entrenamientos. Cada ejercicio es de un tipo específico.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -878,13 +885,13 @@
 			\hline
 				El sistema debe permitir exportar una sesión de entrenamiento a Excel.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -896,13 +903,13 @@
 			\hline
 				El entrenador debe poder imprimir sesiones de entrenamientos. Puede seleccionarse un intervalo de sesiones de entrenamientos para proporcionar más usabilidad \footnote{Según ISO/IEC 9126, la usabilidad se refiere a la capacidad de un software de ser comprendido, aprendido, usado y ser atractivo para el usuario, en condiciones específicas de uso.}.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -914,13 +921,13 @@
 			\hline
 				El entrenador debe poder enviar por email una sesión de entrenamiento a un destinatario introducido.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Medio\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -932,13 +939,13 @@
 			\hline
 				El sistema debe generar estadísticas sobre los entrenamientos. Son referidas al volumen y carga de cada sesión de entrenamiento --- microciclo; al volumen y carga de cada macrociclo; volumen y carga de cada tipo de ejercicio. Estas estadísticas servirán parar compararlas con los datos de la planificación.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -950,13 +957,13 @@
 			\hline
 				El entrenador debe poder buscar entre los entrenamientos insertados en la aplicación.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -968,13 +975,13 @@
 			\hline
 				El sistema debe poder calcular el tiempo en que se tarda en realizar un entrenamiento con los ejercicios insertados. Se tiene que basar en un tiempo medio de los nadadores y en la intensidad en que se realizan los ejercicios.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Rechazado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -993,13 +1000,13 @@
 			\hline
 				Los entrenadores deben poder ver un listado con todas las competiciones que han insertado en el sistema. Están organizadas por fecha, siendo las más recientes primero.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1011,13 +1018,13 @@
 			\hline
 				Un entrenador debe poder añadir, modificar o eliminar una competición a la aplicación. Cada competición indica el lugar, la fecha, la piscina, el tipo de cronometraje y el tipo de piscina. Se almacenan los resultados de cada nadador en la competición.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1029,13 +1036,13 @@
 			\hline
 				El sistema debe permitir al entrenador insertar un resultado de un nadador en la competición. Este resultado se mostrará en la competición y en la ficha del nadador asociado.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1047,13 +1054,13 @@
 			\hline
 				El entrenador debe poder ver un calendario con las competiciones. Cada competición añadida al calendario se convertiría en un registro de la lista de competiciones.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1065,13 +1072,13 @@
 			\hline
 				El sistema debe permitir a los entrenadores imprimir el listado de las competiciones, así como la ficha de una competición individual. En las competiciones individuales se mostrarán los resultados de cada nadador en ella.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Crítico\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1083,13 +1090,13 @@
 			\hline
 				Los entrenadores deben poder añadir etiquetas a las competiciones, con el fin de catalogarlas y gestionarlas mejor.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1101,13 +1108,13 @@
 			\hline
 				El sistema debe permitir al entrenador buscar competiciones por nombre, fecha, piscina o etiqueta\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptada\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1119,13 +1126,13 @@
 			\hline
 				El sistema debe permitir enviar los resultados de una competición por email.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1137,13 +1144,13 @@
 			\hline
 				El sistema debe permitir al entrenador organizar las listas de competiciones en orden ascendente y descendente.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Baja\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1163,13 +1170,13 @@
 			\hline
 				El sistema debe permitir a los entrenadores ver el listado de test insertados en el sistema. Cada test representa un listado de pruebas realizadas sobre los nadadores.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Rutinario\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1181,13 +1188,13 @@
 			\hline
 				El entrenador debe poder añadir, modificar o eliminar test al sistema. Dentro de cada test se incluyen los resultados de cada nadador. Debe existir una opción para poder añadir todos los nadadores de una determinada categoría, y posteriormente modificar el resultado del test. Cada resultado del test se añade al perfil del nadador relacionado.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Muy Alta\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Aceptado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1199,13 +1206,13 @@
 			\hline
 				El sistema debe permitir al entrenador imprimir el listado de test realizados. Así mismo, se debe dar la opción de imprimir cada test individualmente.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Media\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
@@ -1217,19 +1224,21 @@
 			\hline
 				El sistema debe permitir al entrenador enviar el listado de los test por email.\\
 			\hline
-				\it{Prioridad}\\
+				{\it Prioridad} - Medio\\
 			\hline
-				\it{Estado}\\
+				{\it Estado} - Postergado\\
 			\hline
-				\it{Coste}\\
+				{\it Coste}\\
 			\hline
-				\it{Riesgo}\\
+				{\it Riesgo} - Significativo\\
 			\hline
 		\end{tabularx}
 	\end{center}
 	\bigskip % Salto de línea grande
 % subsection gestión_de_test_g_ (end)
 % section lista_de_características (end)
+
+\newpage % Forzar a aparecer en la siguiente página
 
 %
 %	Sec Modelo del dominio
