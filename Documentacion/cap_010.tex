@@ -8,6 +8,25 @@
 	En este apartado se describe de forma detallada cada una de las funcionalidades que pueden componer el proyecto, con el fin de guiar el desarrollo hacia el sistema correcto. El proceso estará apoyado en una lista de características y en el modelo del dominio.
 
 % 
+% Sec Tipos de usuarios
+%
+\section{Tipos de usuarios} % (fold)
+	\label{sec:tipos_de_usuarios}
+	
+	Inicialmente se realiza una clasificación de los posibles usuarios del sistema. Esta primera aproximación sólo sirve para identificar y asociar cada característica con cada uno de los usuarios.
+
+	\begin{itemize}
+		\item {{\bf Navegante}. Usuario que accederá a las interfaces públicas de la aplicación. Entiéndase como interfaz pública aquella que no necesita registro y autenticación para acceder.}
+		\item {{\bf Entrenador}. Usuario destino de la aplicación, con la capacidad de poder acceder al sistema y usar todas las funcionalidades del mismo.}
+		\item {{\bf Administrador del sistema}. Es el encargado de configurar la aplicación. Podrá asignar permisos a usuarios en el caso de que exista un gestión de usuarios.}
+		\item {{\bf Desarrollador}. La aplicación podrá informar a los desarrolladores de ciertos aspectos como, por ejemplo, informes de errores, mejoras que deseen los usuarios o estadísticas del rendimiento de la aplicación. También se podrá ejecutar en un entorno de depuración, de forma que se puedan detectar aspectos a corregir y mejorar.}
+	\end{itemize}
+
+	Posteriormente, cuando se empiece con el desarrollo formal del proyecto, se identificarán los usuarios definitivos, que no tienen por qué coincidir con los propuestos en esta sección.
+	
+% section tipos_de_usuarios (end)
+
+% 
 % Sec Lista de características
 %
 \section{Lista de características} % (fold)
@@ -16,12 +35,13 @@
 	Cada característica tiene un nombre corto y una breve explicación, información suficiente para poder hablar de ella durante la planificación del producto. Cada característica tiene también un conjunto de valores de planificación que son incluidos:
 	
 	\begin{itemize}
-		\item{Prioridad}
-		\item{Estado}
-		\item{Coste estimado de implementación}
-		\item{Nivel de riesgo asociado a la implementación de la característica}
+		\item{{\bf Prioridad}. Se asigna una prioridad a cada característica con el fin de determinar el orden en que se van a ir desarrollando. La prioridad se establece desde muy alta a muy baja.}
+		\item{{\bf Estado}. Establece el punto en que se encuentra el sistema a medida que avanza su desarrollo. Los posibles estados son: {\it aceptado, planificado, en desarrollo, finalizado, postergado, rechazado}.}
+		\item{{\bf Coste}. Recursos estimados para la implementación de la característica.}
+		\item{{\bf Nivel de riesgo asociado}. Cada característica puede tener asociado un riesgo que representa la dificultad para conseguir implementarla correctamente. Los tres niveles de riesgo son: {\it crítico, significativo o rutinario}.}
 	\end{itemize}
 	
+	Para una mayor facilidad en la catalogación, la lista de características está dividida por categorías que representan una aproximación a los módulos que compondrán el sistema.
 %
 % Sub Navegación (A)
 %
