@@ -131,7 +131,7 @@
 		\item {{\bf Barra lateral}. Desde ella se accede a cada una de las opciones del módulo que se esté gestionando.}
 	\end{itemize}
 	
-	A continuación se muestran las interfaces de {\it ver listado de nadadores} (figura), {\it añadir nadador} (figura ), {\it ver nadador} (figura) y {\it modificar nadador} (figura). La primera de ellas muestra todos los nadadores insertados en la aplicación por un entrenador registrado; la segunda refleja el proceso para añadir un nuevo nadador; y la tercera como se modificaría. Es destacable que la información relacionada con las competiciones y test que aparece en {\it ver nadador}, no pueden ser modificadas desde este módulo, sino desde los que gestionan las competiciones y test.
+	A continuación se muestran las interfaces de {\it ver listado de nadadores} (figura \ref{fig:interfaz_nadadores}), {\it añadir nadador} (figura \ref{fig:interfaz_nadadores_new}), {\it ver nadador} (figura \ref{fig:interfaz_nadadores_show}) y {\it modificar nadador} (figura \ref{fig:interfaz_nadadores_modif}). La primera de ellas muestra todos los nadadores insertados en la aplicación por un entrenador registrado; la segunda refleja el proceso para añadir un nuevo nadador; y la tercera como se modificaría. Es destacable que la información relacionada con las competiciones y test que aparece en {\it ver nadador}, no pueden ser modificadas desde este módulo, sino desde los que gestionan las competiciones y test.
 	
 	\begin{figure}[H]
 	  \centering
@@ -165,7 +165,68 @@
 	\subsection{Gestión de Competiciones} % (fold)
 		\label{sub:gestion_de_competiciones}
 	
+	La figura \ref{fig:interfaz_competiciones} muestra la interfaz para ver las competiciones añadidas por un entrenador registrado. Su estructura, como se especificó anteriormente, es similar a la del resto de módulos. La particularidad que tiene es que aparece un calendario de la temporada. A medida que se {\it añadan competiciones} (figura \ref{fig:interfaz_competiciones_new}) irán apareciendo ahí. 
 	
+		\begin{figure}[H]
+		  \centering
+		    \includegraphics[width=8cm]{./eps/14_Competiciones.eps}
+		  \caption{Interfaz para ver listado de competiciones}
+		  \label{fig:interfaz_competiciones}
+		\end{figure}
+
+		\begin{figure}[H]
+		  \centering
+		    \includegraphics[width=8cm]{./eps/15_Competiciones_new.eps}
+		  \caption{Interfaz para añadir competición}
+		  \label{fig:interfaz_competiciones_new}
+		\end{figure}
+
+Cuando un entrenador hace clic sobre el nombre de la competición en la tabla, se accede a {\it ver una competición} (figura \ref{fig:interfaz_competiciones_show}). Cuando se modifica una competición (figura \ref{fig:interfaz_competiciones_modif}), se da la posibilidad de modificar cada uno de los resultados añadidos a la misma. Esta información es la que aparecerá modificada en la ficha de cada nadador.
+
+		\begin{figure}[H]
+		  \centering
+		    \includegraphics[width=8cm]{./eps/16_Competiciones_show.eps}
+		  \caption{Interfaz para ver competición}
+		  \label{fig:interfaz_competiciones_show}
+		\end{figure}
+
+		\begin{figure}[H]
+		  \centering
+		    \includegraphics[width=8cm]{./eps/17_Competiciones_modif.eps}
+		  \caption{Interfaz para modificar competición}
+		  \label{fig:interfaz_competiciones_modif}
+		\end{figure}
 	% subsection gestión_de_competiciones (end)
+	
+	\subsection{Gestión de entrenamientos} % (fold)
+		\label{sub:gestion_de_entrenamientos}
+	
+	La {\it lista de entrenamientos} (figura \ref{fig:interfaz_entrenamientos}) refleja cada una de las sesiones que inserta el entrenador a lo largo de una temporada. En el resumen se muestran la cantidad de sesiones, el volumen y la carga realizadas en total. Al hacer clic sobre el nombre del entrenamiento, se accede a {\it ver entrenamiento} (figura \ref{fig:interfaz_entrenamientos_show}), que incluye cada uno de los ejercicios añadidos al mismo. Como cada ejercicio tiene asociado un volumen y una carga, se muestra el total de esa sesión. Esto ayuda al entrenador a la hora de hacer los entrenamientos, puesto que conoce el estado a medida que los va desarrollando.
+	Añadir (figura \ref{fig:interfaz_entrenamientos_new}) y modificar entrenamiento son iguales, con la salvedad de que el segundo permite cambiar los datos de los formularios que se agregan en el primero.
+	
+	\begin{figure}[H]
+	  \centering
+	    \includegraphics[width=8cm]{./eps/18_Entrenamientos.eps}
+	  \caption{Interfaz para ver listado de entrenamientos}
+	  \label{fig:interfaz_entrenamientos}
+	\end{figure}
+
+	\begin{figure}[H]
+	  \centering
+	    \includegraphics[width=8cm]{./eps/20_Entrenamientos_show.eps}
+	  \caption{Interfaz para ver entrenamiento}
+	  \label{fig:interfaz_competiciones_show}
+	\end{figure}
+	
+	
+	
+	\begin{figure}[H]
+	  \centering
+	    \includegraphics[width=8cm]{./eps/19_Entrenamientos_new.eps}
+	  \caption{Interfaz para añadir entrenamiento}
+	  \label{fig:interfaz_entrenamientos_new}
+	\end{figure}
+
+	% subsection gestión_de_entrenamientos (end)
 % section diseño_de_interfaz_de_usuario (end)
 % chapter análisis (end)
