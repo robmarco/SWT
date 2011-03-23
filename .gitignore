@@ -1,4 +1,6 @@
 # Especificación de ficheros de Mac
 .DS_Store
 # Ignorar ficheros pdf creados al compilar las imagenes eps
-Documentacion/eps/*.pdf
+Documentacion/eps/p_interfaz/*.pdf
+Documentacion/eps/casos_uso/*.pdf
+
