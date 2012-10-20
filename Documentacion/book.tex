@@ -4,7 +4,8 @@
 \usepackage[utf8]{inputenc}
 
 % -------------------------------------------------------------------------
-
+% puede que queramos usar el símbolo del euro.
+\usepackage{eurosym}
 % Para incluir graficos en JPG => compilar con pdflatex.
 %\usepackage[pdftex]{graphicx}
 % Para incluir graficos EPS => compilar con latex.
@@ -21,11 +22,15 @@
 % Paquete fancyhdr -> Para modificar la cabecera y pie de paginas.
 % http://tug.ctan.org/tex-archive/macros/latex/contrib/fancyhdr/
 \usepackage{fancyhdr}
+\usepackage{fancybox}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhf[HR]{\thepage}
 \fancyhf[HL]{\nouppercase\rightmark}
 \headwidth=16cm
+
+% Para incluir subfiguras.
+\usepackage{subfigure}
 
 % Ajuste de margenes
 \usepackage{anysize}
@@ -50,9 +55,20 @@
 
 \usepackage{tabularx}
 
+
+% Packages para apendices y renombrado de la pagina de apendices
+\usepackage{appendix}
+\renewcommand{\appendixname}{Apéndices}
+\renewcommand{\appendixtocname}{Apéndices}
+\renewcommand{\appendixpagename}{Apéndices}
 % -------------------------------------------------------------------------
 % Compilar con bibtex book.gls.aux
 \usepackage[refpages]{gloss}
+% -------------------------------------------------------------------------
+\usepackage[margin=2cm,font=footnotesize,labelfont=bf]{caption} 
+% -------------------------------------------------------------------------
+% Comando para realizar las referenfias a etiquetas
+\newcommand{\fullref}[1]{\ref{#1} de la página \pageref{#1}}
 % -------------------------------------------------------------------------
 
 \title{\bf Desarrollo Aplicación Web de Gestión Deportiva para Entrenadores de Natación}
@@ -60,12 +76,19 @@
 \date{\today}
 
 \begin{document}
-	\maketitle
 	
-	% Página de agradecimientos
-	\newpage 
-	\thispagestyle{empty} 
-	\include{agradecimientos}
+	% \maketitle sirve para generar automática una portada predefinida. Se incluye portada personalizada
+	\include{pfc_portada}
+
+	% Documentos adicionales
+	\include{pfc_certificado}
+	\include{pfc_resumen}
+	\include{pfc_palabras_clave}
+	\include{pfc_dedicatoria}
+	\include{pfc_agradecimientos}
+
+	% FRONTMATTER: TOC, LOF, LOT y descripción/organización de la memoria.
+	\frontmatter
 	
 	% Glosario		
 	\makegloss
@@ -76,13 +99,19 @@
 	\tableofcontents
 	\listoffigures
 	\listoftables
-	\include{frontmatter_intro}
+	
 	
 	% MAINMATTER: El contenido, capitulo a capitulo, de la memoria.
 	\mainmatter
-
+	
+	\include{pfc_frontmatter_intro}
+	\include{pfc_antecedentes}
+	\include{pfc_metodologia}
+	\include{pfc_herramientas}
 	\include{cap_010} % Captura de requisitos
-	\include{cap_020}
+	\include{cap_020} % Especificacion de requisitos
+	\include{cap_030} % Analisis
+	\include{cap_040} % Diseño
 	
 	% ----------------- Glosario --------------------------- 
 	% Para mostrar todas las entradas aunque no estén referenciadas en el documento
@@ -90,6 +119,15 @@
 	\gloss[nocite]{*} 		
 	\printgloss{glsbase,glosario}
 
+	% INCLUIMOS LOS APÉNDICES.
+	\cleardoublepage
+	\addappheadtotoc
+	\appendixpage
+	
+	\appendix
+	\include{pfc_appendix_010}
+	%\include{pfc_appendix_020}
+	
 	% ----------- Referencias bibliograficas ------------------ 
 	\nocite{*}	% Se usa para indicar en la bibliografia las referencias no citadas.
 	\bibliography{bibliografia}
